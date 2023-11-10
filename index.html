@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="./src/styles/style.css">
+  <title>Alarme</title>
+</head>
+<body>
+  <div class="box">
+    <h1 class="hour">00:00:00</h1>
+
+    <div class="input">
+      <input type="number" id="hour" placeholder="00">
+      <input type="number" id="minute" placeholder="00">
+    </div>
+
+    <div class="buttons">
+      <button class="add-alarm">Adicionar Alarme</button>
+      <button class="clear-alarm">Limpar Alarmes</button>
+    </div>
+
+    <div class="alarm-list"></div>
+
+    <audio src="./src/sound/alarm-sound.mp3" class="alarm-sound"></audio>
+
+  <script src="./src/js/script.js"></script>
+</body>
+</html>
